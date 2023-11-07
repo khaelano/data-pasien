@@ -9,6 +9,11 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner (System.in);
+        while (true){
+            System.out.printf("%-13s:", "Nama ");
+            String name = input.nextLine();
+            
+        }    
     }
 }
